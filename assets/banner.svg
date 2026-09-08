@@ -1,0 +1,71 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="40%" stop-color="#121828"/>
+      <stop offset="70%" stop-color="#1a1030"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#6e40c9" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#6e40c9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="70%" r="45%">
+      <stop offset="0%" stop-color="#ff6b6b" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff6b6b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="65%" cy="15%" r="35%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+  <!-- Glow orbs -->
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow1)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow2)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow3)"/>
+
+  <!-- Decorative grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="200" y1="0" x2="200" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+    <line x1="600" y1="0" x2="600" y2="360"/>
+    <line x1="800" y1="0" x2="800" y2="360"/>
+    <line x1="1000" y1="0" x2="1000" y2="360"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="60" r="80" fill="none" stroke="#6e40c9" stroke-opacity="0.15" stroke-width="1.5"/>
+  <circle cx="1100" cy="300" r="100" fill="none" stroke="#58a6ff" stroke-opacity="0.1" stroke-width="1.5"/>
+  <circle cx="950" cy="80" r="40" fill="none" stroke="#ff6b6b" stroke-opacity="0.1" stroke-width="1"/>
+  <circle cx="250" cy="310" r="55" fill="none" stroke="#6e40c9" stroke-opacity="0.12" stroke-width="1.2"/>
+
+  <!-- Decorative path arcs -->
+  <path d="M 50 280 Q 150 220 250 280 Q 350 340 450 280" fill="none" stroke="#58a6ff" stroke-opacity="0.08" stroke-width="1.5"/>
+  <path d="M 750 60 Q 850 20 950 60 Q 1050 100 1150 60" fill="none" stroke="#6e40c9" stroke-opacity="0.1" stroke-width="1.5"/>
+
+  <!-- Small accent dots -->
+  <circle cx="180" cy="150" r="3" fill="#6e40c9" fill-opacity="0.3"/>
+  <circle cx="1020" cy="200" r="2.5" fill="#58a6ff" fill-opacity="0.25"/>
+  <circle cx="550" cy="50" r="2" fill="#ff6b6b" fill-opacity="0.2"/>
+  <circle cx="700" cy="320" r="3" fill="#6e40c9" fill-opacity="0.2"/>
+  <circle cx="350" cy="280" r="2" fill="#58a6ff" fill-opacity="0.3"/>
+
+  <!-- Headline -->
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="58.0" font-weight="bold" fill="#ffffff">
+    <tspan x="600" dy="0">Ideogram 3.5 Full Access</tspan>
+    <tspan x="600" dy="62">Activator</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="255" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Ideogram 3.5 Full Access Activator for designers and creators —</tspan>
+    <tspan x="600" dy="30">unlocks premium features and removes usage li…</tspan>
+  </text>
+</svg>
